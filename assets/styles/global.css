@@ -42,16 +42,15 @@ body>header {
 }
 
 body>header a {
-  border-bottom: 2px solid rgb(155, 155, 155);
-  color: rgb(155, 155, 155);
+  border-bottom: 2px solid white;
+  color: white;
   font-size: 1.4rem;
   padding-bottom: 2.5px;
   text-decoration: none;
 }
 
 body.blue>header a {
-  border-bottom: 2px solid black;
-  color: black;
+  border-bottom: 2px solid white;
   font-size: 1.4rem;
   padding-bottom: 2.5px;
   text-decoration: none;
@@ -113,4 +112,19 @@ main>section {
   display: grid;
   grid-template-areas: 'slider icon';
   grid-template-columns: 80% 15%;
+}
+
+/* additions */
+
+body {
+  background: #489cbd;
+  background: linear-gradient(90deg,rgba(206, 237, 83, 1) 8%, rgba(93, 217, 139, 1) 25%,  rgba(72, 156, 189, 1) 90%);
+}
+
+button {
+  background-color: rgb(106, 211, 176);
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

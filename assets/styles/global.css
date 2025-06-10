@@ -11,6 +11,7 @@ body {
 }
 
 body.blue {
+  background:none;
   background-color: lightblue;
 }
 
@@ -117,7 +118,6 @@ main>section {
 /* additions */
 
 body {
-  background: #489cbd;
   background: linear-gradient(90deg,rgba(206, 237, 83, 1) 8%, rgba(93, 217, 139, 1) 25%,  rgba(72, 156, 189, 1) 90%);
 }
 
